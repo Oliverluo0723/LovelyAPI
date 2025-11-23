@@ -1,0 +1,28 @@
+# Node / pnpm
+node_modules/
+pnpm-lock.yaml
+
+# Vite build
+dist/
+.vite/
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Local environment files
+.env
+.dev.vars
+
+# IDE
+.vscode/
+.DS_Store
+
+# Cloudflare Wrangler / backend
+backend/node_modules/
+backend/.wrangler/tmp/
+backend/.wrangler/state/
+
+# Optional: cache / temp files
+*.cache
+*.swp
